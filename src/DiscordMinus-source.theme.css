@@ -4,6 +4,7 @@
  * @updateUrl https://kajussls121.github.io/discord-plus-yes/src/DiscordMinus-source.theme.css
  * @version 1.00
 */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Flow+Block&family=Flow+Circular&family=Libre+Barcode+39+Extended&family=New+Rocker&family=Noto+Color+Emoji&family=Redacted&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wavefont:wght@4..1000&display=swap');
 /*
 	Table of Contents
 1 Imports
@@ -33,7 +34,7 @@
 	8.4 Inbox
 	8.5 Profile Popout
 9 Titlebar
-	9.1 General Titlebar
+	9.1 General Titlebar (Commented out)
 	9.2 Mac OS Buttons
 10 Guild List
 	10.1 Background + Servers
