@@ -996,7 +996,7 @@ that have popups, or else the menu breaks when you hover over them */
 		/*--- 9 Titlebar ---*/
 		
 		/*-- 9.1 General Titlebar --*/
-/*.typeWindows_e41dab {
+.typeWindows_e41dab {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
 	height: 20px;
@@ -1030,7 +1030,7 @@ that have popups, or else the menu breaks when you hover over them */
 	left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
 }
 .theme-light .wordmark__5b8c9 {filter: brightness(0);}
-.theme-light .theme-dark .wordmark__5b8c9 {filter: none;}/*
+.theme-light .theme-dark .wordmark__5b8c9 {filter: none;}
 	/*-- 9.2 MacOS Buttons --*/	
 .typeMacOS_cacc59 {
 	background: var(--dplus-bgc-ui-base);
@@ -1087,7 +1087,7 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: var(--dplus-bgc-server-button-hover);
 }
 		/*-- 10.2 Home Icon --*/
-#app-mount .scroller_de945b {padding-top: var(--dplus-spacing-ui);}
+/*#app-mount .scroller_de945b {padding-top: var(--dplus-spacing-ui);}
 .tutorialContainer_b06ae6 .childWrapper_a6ce15 svg {display: none !important;}
 .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
 .wrapper__8436d:hover .childWrapper_a6ce15, .childWrapper_a6ce15 {
