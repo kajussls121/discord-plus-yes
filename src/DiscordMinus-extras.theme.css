@@ -28,22 +28,5 @@
   color: red;
 }
 
-/* Badges */
-.headerText-15Q25Z:after, .headerTop-1PNKck:before,
-.headerTag-16AlQV:after, .text-lg-semibold__84aef:after
-  { filter: drop-shadow(0px 0px 2px black); }
-.headerText_bd68ec:after, .text-lg-semibold__84aef::after{
-  background-image: var(--dplus-badge); margin-left: 10px;
-  width: 80px; height: 1rem; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: inline-block; z-index: 0; }
-
-  /* D+ badge in member list */
-.username_ab1e31:after {
-  content: var(--dplus-dev, var(--dplus-supporter));
-  background-image: var(--dplus-badge-memberlist);
-  margin-left: 3px;
-  display: inline-block;
-  width: 14px; height: 14px;
-}
-
 .theme-dark { --dplus-badge-memberlist: url("https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg"); }
 .theme-light { --dplus-badge-memberlist: url("https://kajussls121.github.io/discord-plus-yes/assets/discord/home_light.svg"); }
