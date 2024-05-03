@@ -996,7 +996,7 @@ that have popups, or else the menu breaks when you hover over them */
 		/*--- 9 Titlebar ---*/
 		
 		/*-- 9.1 General Titlebar --*/
-.typeWindows_e41dab {
+/*.typeWindows_e41dab {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
 	height: 20px;
