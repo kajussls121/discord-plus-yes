@@ -3,7 +3,7 @@
  * @author kajussls121
  * @description A sleek, customizable Discord theme, but edited.
  * @source https://github.com/kajussls121/discord-plus-yes
- * @updateUrl https://github.com/kajussls121/discord-plus-yes/raw/master/DiscordMinus.theme.css
+ * @updateUrl https://kajussls121.github.io/discord-plus-yes/DiscordMinus.theme.css
 */
 @import url(https://plusinsta.github.io/discord-plus/src/DiscordMinus-source.theme.css);
 
@@ -80,6 +80,6 @@ Set avatar/server radius to 50% to make them circular.
 --dplus-icon-server-list: 32px;
 
 /* The Home icon on the top left */
---dplus-icon-home-dark: url(https://github.com/kajussls121/discord-plus-yes/raw/master/assets/discord/home_dark.svg);
---dplus-icon-home-light: url(https://github.com/kajussls121/discord-plus-yes/raw/master/discord-plus-yes/assets/discord/home_light.svg);
+--dplus-icon-home-dark: url(https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(https://kajussls121.github.io/discord-plus-yes/discord-plus-yes/assets/discord/home_light.svg);
 }
