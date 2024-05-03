@@ -19,19 +19,6 @@
   border-bottom: 1px solid;
   font-family: PixelPetit;
 }
-
-
-/* put a nice logo in my server's channel list */
-.theme-dark [data-list-item-id="channels___554914403011526675"] .name__27f04,
-.theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name__27f04,
-.theme-light [data-list-item-id="channels___554914403011526675"] .name__27f04 {
-  font-size: 0;
-  background: no-repeat url(https://kajussls121.github.io/discord-plus-yes/assets/wordmark_white.svg);
-  background-size: 54px 13px;
-  width: 54px; height: 13px;
-  opacity: 0.65;
-  color: transparent;
-}
 .theme-light [data-list-item-id="channels___554914403011526675"] .name__27f04 {
   background: no-repeat url(https://kajussls121.github.io/discord-plus-yes/assets/wordmark_black.svg);
 }
@@ -69,35 +56,3 @@
 
 .theme-dark { --dplus-badge-memberlist: url("https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg"); }
 .theme-light { --dplus-badge-memberlist: url("https://kajussls121.github.io/discord-plus-yes/assets/discord/home_light.svg"); }
-
-  /* Badge for Michelle */
-.userProfileModalInner__99b1e:has([src*="220275692926009344"])  .text-lg-semibold__84aef:after
-{ background-image: url("https://kajussls121.github.io/discord-plus-yes/assets/badges/badge_vip_michelle.svg");
-  width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
-[data-user-id="220275692926009344"] .topSection-13QKHs header:after
-{ margin-left: 16px; }
-[data-user-id="220275692926009344"] .nameTagSmall-2JO-C-
-{ margin-bottom: 0; }
-
-/* Make my own profile Different(TM) */
-[data-user-id="309931975102300160"] .nickname-t08Mck,
-[data-user-id="309931975102300160"] .username__7d629 {
-  font-size: 28px;
-}
-[data-user-id="309931975102300160"] .discriminator-1bqsd3 {
-  opacity: 0;
-}
-[data-user-id="309931975102300160"] .username__7d629:after {
-  font-size: 16px;
-  content: "#0001";
-  color: var(--header-secondary);
-}
-[data-user-id="309931975102300160"] .nickname-t08Mck:after {
-  font-size: 16px;
-  content: " (Insta#0001)";
-  color: var(--header-secondary);
-}
-[data-user-id="309931975102300160"] .discrimBase-1VOoau,
-[data-user-id="309931975102300160"] .headerTagWithNickname-1U8zZH .headerTagUsernameBase-XYisdh {
-  display: none;
-}
