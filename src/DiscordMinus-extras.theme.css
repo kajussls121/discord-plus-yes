@@ -10,15 +10,6 @@
   src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf");
 }
 
-/* make links to my carrd use my style */
-[href="https://plusinsta.xyz"],
-[href="https://plusinsta.xyz/"],
-[href="https://PlusInsta.xyz"],
-[href="https://PlusInsta.xyz/"] {
-  color: #d29630 !important;
-  border-bottom: 1px solid;
-  font-family: PixelPetit;
-}
 .theme-light [data-list-item-id="channels___554914403011526675"] .name__27f04 {
   background: no-repeat url(https://kajussls121.github.io/discord-plus-yes/assets/wordmark_black.svg);
 }
