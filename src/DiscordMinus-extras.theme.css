@@ -50,32 +50,6 @@
   color: red;
 }
 
-/* Supporters */
-.member_b44d5d:has([src*="220275692926009344"]), .contents_d3ae0d:has([src*="220275692926009344"]), .userProfileModalInner__99b1e:has([src*="220275692926009344"])
-.member_b44d5d:has([src*="367617500021784587"]), .contents_d3ae0d:has([src*="367617500021784587"]), .userProfileModalInner__99b1e:has([src*="367617500021784587"]),
-.member_b44d5d:has([src*="719378258491342878"]), .contents_d3ae0d:has([src*="719378258491342878"]), .userProfileModalInner__99b1e:has([src*="719378258491342878"]),
-.member_b44d5d:has([src*="644964603108786233"]), .contents_d3ae0d:has([src*="644964603108786233"]), .userProfileModalInner__99b1e:has([src*="644964603108786233"]),
-.member_b44d5d:has([src*="299958646748741632"]), .contents_d3ae0d:has([src*="299958646748741632"]), .userProfileModalInner__99b1e:has([src*="299958646748741632"]),
-.member_b44d5d:has([src*="354342865695932423"]), .contents_d3ae0d:has([src*="354342865695932423"]), .userProfileModalInner__99b1e:has([src*="354342865695932423"]),
-.member_b44d5d:has([src*="275432265100558336"]), .contents_d3ae0d:has([src*="275432265100558336"]), .userProfileModalInner__99b1e:has([src*="275432265100558336"]),
-.member_b44d5d:has([src*="852664018438717481"]), .contents_d3ae0d:has([src*="852664018438717481"]), .userProfileModalInner__99b1e:has([src*="852664018438717481"]),
-.member_b44d5d:has([src*="299339580593799171"]), .contents_d3ae0d:has([src*="299339580593799171"]), .userProfileModalInner__99b1e:has([src*="299339580593799171"]),
-.member_b44d5d:has([src*="224367608382619648"]), .contents_d3ae0d:has([src*="224367608382619648"]), .userProfileModalInner__99b1e:has([src*="224367608382619648"]),
-.member_b44d5d:has([src*="356817504330448906"]), .contents_d3ae0d:has([src*="356817504330448906"]), .userProfileModalInner__99b1e:has([src*="356817504330448906"]),
-.member_b44d5d:has([src*="181240443747434496"]), .contents_d3ae0d:has([src*="181240443747434496"]), .userProfileModalInner__99b1e:has([src*="181240443747434496"]),
-.member_b44d5d:has([src*="168569629906698240"]), .contents_d3ae0d:has([src*="168569629906698240"]), .userProfileModalInner__99b1e:has([src*="168569629906698240"]),
-.member_b44d5d:has([src*="408875276265848833"]), .contents_d3ae0d:has([src*="408875276265848833"]), .userProfileModalInner__99b1e:has([src*="408875276265848833"]) {
-  --dplus-badge: url("https:https://kajussls121.github.io/discord-plus-yes/assets/badges/badge_supporter.svg");
-  --dplus-supporter: "";
-}
-/* Developers */
-.member_b44d5d:has([src*="309931975102300160"]), .contents_d3ae0d:has([src*="309931975102300160"]), .userProfileModalInner__99b1e:has([src*="309931975102300160"]),
-.member_b44d5d:has([src*="207335168430702602"]), .contents_d3ae0d:has([src*="207335168430702602"]), .userProfileModalInner__99b1e:has([src*="207335168430702602"]),
-.member_b44d5d:has([src*="394891840815366147"]), .contents_d3ae0d:has([src*="394891840815366147"]), .userProfileModalInner__99b1e:has([src*="394891840815366147"]) {
-  --dplus-badge: url("https:https://kajussls121.github.io/discord-plus-yes/assets/badges/badge_dev.svg");
-  --dplus-dev: "";
-}
-
 /* Badges */
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,
 .headerTag-16AlQV:after, .text-lg-semibold__84aef:after
@@ -93,12 +67,12 @@
   width: 14px; height: 14px;
 }
 
-.theme-dark { --dplus-badge-memberlist: url("https:https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("https:https://kajussls121.github.io/discord-plus-yes/assets/discord/home_light.svg"); }
+.theme-dark { --dplus-badge-memberlist: url("https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg"); }
+.theme-light { --dplus-badge-memberlist: url("https://kajussls121.github.io/discord-plus-yes/assets/discord/home_light.svg"); }
 
   /* Badge for Michelle */
 .userProfileModalInner__99b1e:has([src*="220275692926009344"])  .text-lg-semibold__84aef:after
-{ background-image: url("https:https://kajussls121.github.io/discord-plus-yes/assets/badges/badge_vip_michelle.svg");
+{ background-image: url("https://kajussls121.github.io/discord-plus-yes/assets/badges/badge_vip_michelle.svg");
   width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { margin-left: 16px; }

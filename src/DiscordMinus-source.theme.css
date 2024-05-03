@@ -71,8 +71,8 @@
 */
 
 /*--- 1 imports ---*/
-@import url('https:https://kajussls121.github.io/discord-plus-yes/src/DiscordPlus-plugins.theme.css');
-@import url('https:https://kajussls121.github.io/discord-plus-yes/src/DiscordPlus-extras.theme.css');
+@import url('https://kajussls121.github.io/discord-plus-yes/src/DiscordPlus-plugins.theme.css');
+@import url('https://kajussls121.github.io/discord-plus-yes/src/DiscordPlus-extras.theme.css');
 /* Main fonts */
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 /* Localized fonts */
@@ -180,11 +180,11 @@
 	--dplus-spacing-app: 10px;
 
 	/* Wordmark (Windows only) */
-	--dplus-wordmark: url(https:https://kajussls121.github.io/discord-plus-yes/assets/wordmark_white.svg);
+	--dplus-wordmark: url(https://kajussls121.github.io/discord-plus-yes/assets/wordmark_white.svg);
 
 	/* Icons */
-	--dplus-icon-home-dark: url(https:https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(https:https://kajussls121.github.io/discord-plus-yes/assets/discord/home_light.svg);
+	--dplus-icon-home-dark: url(https://kajussls121.github.io/discord-plus-yes/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(https://kajussls121.github.io/discord-plus-yes/assets/discord/home_light.svg);
 
 	/* Icon sizes*/
 	--dplus-icon-avatar-chat: 64px;
