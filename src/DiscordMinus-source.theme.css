@@ -496,14 +496,14 @@ body { background-color: var(--dplus-accent-ui); }
 
 		/*-- 4.1 Display Font --*/
 :root {
-	--dplus-font-ui: 'Poppins';
+	--dplus-font-ui: 'Roboto';
 	--dplus-font-ui-ja: 'Kosugi';
 	--dplus-font-ui-ko: 'Gothic A1';
 	--dplus-font-ui-ru: 'PT Sans Caption';
 	--dplus-font-ui-vi: 'Raleway';
 	--dplus-font-ui-el: 'Commissioner';
 	--dplus-font-body: 'Roboto';
-	--dplus-font-header: 'Righteous';
+	--dplus-font-header: 'Roboto';
 	--dplus-font-header-ja: 'RocknRoll One';
 	--dplus-font-header-ko: 'Black Han Sans';
 	--dplus-font-header-ru: 'Russo One';
