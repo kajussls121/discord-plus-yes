@@ -494,7 +494,7 @@ body { background-color: var(--dplus-accent-ui); }
 		
 		/*--- 4 Fonts ---*/
 
-		/*-- 4.1 Display Font --*/
+		/*-- 4.1 Display Font --*//*
 :root {
 	--dplus-font-ui: 'Roboto';
 	--dplus-font-ui-ja: 'Kosugi';
@@ -522,45 +522,45 @@ body, button, select {
 	font-family: var(--font-display);
 }
 		
-		/*-- 4.2 Text Font --*/
+		/*-- 4.2 Text Font --*//*
 ::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
 .message_ccca67, .markup_a7e664, /*chat messages*/
-.subText__4629e, /*member list body*/
-.customStatusText-_4TbWr, /*user's custom status*/
-.modeDefault-2fEh7a, /*settings small body*/
-.emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA, /*server settings: emoji name*/
-.topic__16ae3, /*channel topic in chat header*/
-.content_f03632, /*channel topic popup body*/
-.bd-description /*BD: plugin/theme desc*/ {
+.subText__4629e, /*member list body*//*
+.customStatusText-_4TbWr, /*user's custom status*//*
+.modeDefault-2fEh7a, /*settings small body*//*
+.emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA, /*server settings: emoji name*//*
+.topic__16ae3, /*channel topic in chat header*//*
+.content_f03632, /*channel topic popup body*//*
+.bd-description /*BD: plugin/theme desc*//* {
 	font-family: var(--dplus-font-body), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
 }
-		/*-- 4.3 Names, Titles, and Headers Font --*/
+		/*-- 4.3 Names, Titles, and Headers Font --*//*
 header, h1,
-.nameAndDecorators__389dd, /*name in member list*/
-.headerNameWrapper-3res2c, /*nickname in profile popup*/
-.username__0b0e7, /*username in chat*/
-.headerText-15Q25Z, /*username#tag in profile popup*/
-.nickname-2gQ76l, /*nickname in profile popup*/
-.nameTag__77ab2, /*your username in the bottom-left*/
-.detailsInner_de8f28, /*settings: your username in My Account*/
-.activityName_a7b7de, /*user's activity name, includes song and author titles*/
-.emojiUploader-1f0pVx, /*server settings: emoji's uploader*/
-.userHook-3AdCBF, /*server settings: username in audit log*/
-.secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot names*/
-.roleName__851c9, /*role name in profile*/
-.roleName-35qCvR, .roleName-3910zV, /*role name in server settings*/
-.membersGroup_cad095, /*role name in member list*/
-.roleRow-3HnunM, /*role name in context menu*/
-.roleMention_d441cd, /*role name mention in chat*/
-.wrapper_f5f4c9, /*username or channel name mention in chat*/
-[data-slate-object="inline"] .mention, /*mention in message box*/
-.systemMessage_fced96 .anchorUnderlineOnHover-2qPutX, /* links / usernames in system messages */
-.name__27f04, /*category name in sidebar*/
-.name__4eb92, /*channel name in sidebar*/
-.title__84e16, /*channel name in chat header*/
-.title-3hptVQ, /*channel name in channel topic popup*/
-.bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
-.timestamp_c79dd2 /*chat message hover timestamp (counts as a header)*/ {
+.nameAndDecorators__389dd, /*name in member list*//*
+.headerNameWrapper-3res2c, /*nickname in profile popup*//*
+.username__0b0e7, /*username in chat*//*
+.headerText-15Q25Z, /*username#tag in profile popup*//*
+.nickname-2gQ76l, /*nickname in profile popup*//*
+.nameTag__77ab2, /*your username in the bottom-left*//*
+.detailsInner_de8f28, /*settings: your username in My Account*//*
+.activityName_a7b7de, /*user's activity name, includes song and author titles*//*
+.emojiUploader-1f0pVx, /*server settings: emoji's uploader*//*
+.userHook-3AdCBF, /*server settings: username in audit log*//*
+.secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot names*//*
+.roleName__851c9, /*role name in profile*//*
+.roleName-35qCvR, .roleName-3910zV, /*role name in server settings*//*
+.membersGroup_cad095, /*role name in member list*//*
+.roleRow-3HnunM, /*role name in context menu*//*
+.roleMention_d441cd, /*role name mention in chat*//*
+.wrapper_f5f4c9, /*username or channel name mention in chat*//*
+[data-slate-object="inline"] .mention, /*mention in message box*//*
+.systemMessage_fced96 .anchorUnderlineOnHover-2qPutX, /* links / usernames in system messages *//*
+.name__27f04, /*category name in sidebar*//*
+.name__4eb92, /*channel name in sidebar*//*
+.title__84e16, /*channel name in chat header*//*
+.title-3hptVQ, /*channel name in channel topic popup*//*
+.bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*//*
+.timestamp_c79dd2 /*chat message hover timestamp (counts as a header)*//* {
 	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Lalezar', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 		
