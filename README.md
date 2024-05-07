@@ -1,3 +1,3 @@
-# A fork of a theme.
+# A fork of a theme
 
-Just for testing.
+This is for testing
