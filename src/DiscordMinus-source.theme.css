@@ -460,9 +460,9 @@
 	--background-accent: var(--dplus-accent-ui);
 }
 		/*--- 3 Background ---*/
-/* Quick and dirty fix for create a new server in dark mode *//*
+/* Quick and dirty fix for create a new server in dark mode */
 .theme-dark .layer-1Ixpg3 .theme-light { /* the ones i actually need */
-	/*--header-primary: #060607;
+	--header-primary: #060607;
 	--header-secondary: #4f5660;
 	--text-normal: #2e3338;
 	--interactive-normal: #4f5660;
