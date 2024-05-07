@@ -460,14 +460,14 @@
 	--background-accent: var(--dplus-accent-ui);
 }
 		/*--- 3 Background ---*/
-/* Quick and dirty fix for create a new server in dark mode */
+/* Quick and dirty fix for create a new server in dark mode *//*
 .theme-dark .layer-1Ixpg3 .theme-light { /* the ones i actually need */
-	--header-primary: #060607;
+	/*--header-primary: #060607;
 	--header-secondary: #4f5660;
 	--text-normal: #2e3338;
 	--interactive-normal: #4f5660;
 }
-	/*-- 3.1 Image --*/
+	/*-- 3.1 Image --*//*
 #app-mount {
 	background: var(--dplus-backdrop) !important;
 	background-size: cover !important;
@@ -475,7 +475,7 @@
 }
 body { background-color: var(--dplus-accent-ui); }
 .appMount_c99875, .app_de4237, .bg__12180, .bg__12180, .app_de4237 {background-color: transparent;}
-		/*- 3.1.1 Transparent Mode / Light Mode Specifics -*/
+		/*- 3.1.1 Transparent Mode / Light Mode Specifics -*//*
 .bd-transparency, .bd-transparency #app-mount {background: transparent !important;}
 .theme-light .emoji, .theme-light .emoji.jumboable {
 	filter: drop-shadow(0 0 1px #00000055);
@@ -611,16 +611,16 @@ header, h1,
 .title__5060d, .note__35490 div p {font-size: 0px;}
 .title__5060d:after {
 	font-size: 24px;
-	content: "Congratulations!";
+	content: "Well, Discord may have crashed";
 }
 .note__35490 div p:first-child:after {
 	font-size: 16px;
-	content: "You just unlocked Discord Minus!";
+	content: "but it may be fine.";
 	color: white;
 }
-.note__35490 div p:nth-child(2):after {
+/*.note__35490 div p:nth-child(2):after {
 	font-size: 16px;
-	content: "...actually, Discord just crashed. Oops."
+	content: ""
 }
 		
 		/*--- 6 Scrollerbars ---*/
