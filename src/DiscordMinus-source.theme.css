@@ -467,7 +467,7 @@
 	--text-normal: #2e3338;
 	--interactive-normal: #4f5660;
 }
-	/*-- 3.1 Image --*//*
+	/*-- 3.1 Image --*/
 #app-mount {
 	background: var(--dplus-backdrop) !important;
 	background-size: cover !important;
@@ -475,7 +475,7 @@
 }
 body { background-color: var(--dplus-accent-ui); }
 .appMount_c99875, .app_de4237, .bg__12180, .bg__12180, .app_de4237 {background-color: transparent;}
-		/*- 3.1.1 Transparent Mode / Light Mode Specifics -*//*
+		/*- 3.1.1 Transparent Mode / Light Mode Specifics -*/
 .bd-transparency, .bd-transparency #app-mount {background: transparent !important;}
 .theme-light .emoji, .theme-light .emoji.jumboable {
 	filter: drop-shadow(0 0 1px #00000055);
