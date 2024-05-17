@@ -11,6 +11,11 @@
 */
 
 /* Plugins */
+/* Mobile,desktop,web icon */
+.PI-icon_mobile,.PI-icon_web,.PI-icon_desktop {
+	background-image: linear-gradient(90deg, inherit, green);
+	color: transparent
+}
 	/* by Arashiryuu */
 		/* MemberCount */
 #MemberCount {
