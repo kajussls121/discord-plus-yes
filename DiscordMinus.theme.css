@@ -8,8 +8,12 @@
 */
 @import url(https://kajussls121.github.io/discord-plus-yes/src/DiscordMinus-source.theme.css);
 
-/* I've commented most of these values so you can change them yourself. If you're having trouble, or you want to do more than what these values allow for, a volunteer might be able to help you in my server. */
-
+/*  */
+:root {
+  --crash-line-1: "Well, Discord may have crashed";
+  --crash-line-2: "but it may be fine.";
+  --crash-line-3: "CTRL+R, if frozen, or restart.";
+}
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
