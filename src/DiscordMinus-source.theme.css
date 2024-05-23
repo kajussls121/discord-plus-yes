@@ -611,16 +611,16 @@ header, h1,
 .title__5060d, .note__35490 div p {font-size: 0px;}
 .title__5060d:after {
 	font-size: 24px;
-	content: "Well, Discord may have crashed";
+	content: var(--crash-line-1)
 }
 .note__35490 div p:first-child:after {
 	font-size: 16px;
-	content: "but it may be fine.";
+	content: var(--crash-line-2);
 	color: white;
 }
-/*.note__35490 div p:nth-child(2):after {
+.note__35490 div p:nth-child(2):after {
 	font-size: 16px;
-	content: ""
+	content: var(--crash-line-3)
 }
 		
 		/*--- 6 Scrollerbars ---*/
