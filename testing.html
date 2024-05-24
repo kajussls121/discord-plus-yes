@@ -3,25 +3,54 @@
     <head>
         <title>Testing page for hue</title>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Flow+Block&family=Flow+Circular&family=Libre+Barcode+39+Extended&family=New+Rocker&family=Noto+Color+Emoji&family=Redacted&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wavefont:wght@4..1000&display=swap');
             :root {
-                /* Hue */
-                --hue: ;
-
-                /* Saturation */
-                --saturation: ;
-
-                /* Lightness */
-                --lightness: ;
+                font-family: "Roboto";
+                --hue: 90;
+                --saturation: 100%;
+                --lightness: 100%;
             }
             body{text-align:center}
             h1{font-family:sans-serif;text-align: center;}
-            html{
-                color: hsl(var(--hue), var(--saturation), var(--lightness))
+            html {
+                color: hsl(var(--hue), var(--saturation), var(--lightness));
+                background-color: rgb(29, 27, 27)
+            }
+            #redacted {
+                font-family: "Redacted";
+                margin:0;
+                font-size: 100px
+            }
+            #test {
+                color: hsl(114, 30%, 49%)
+            }
+            a.hue {
+                margin-right: 35px;
+                margin-left: 10px
             }
         </style>
-        <link rel="stylesheet" type="text/css" href="testing.css">
     </head>
     <body>
-        <h1>default font testing page</h1>
+        <h1>color here/below</h1>
+        <p id="redacted">||||||||||</p>
+        <h1>Use inspect element to change hue, saturation and lightness</h1>
+        <br/><a class="input hue">Hue</a><input class="input" type="range" min="0" value="90" max="360" oninput="updateHue(this.value)">
+        <br/><a class="input saturation">Saturation</a><input class="input" type="range" min="0" max="100" value="90" oninput="updateSat(this.value)">
+        <br/><a class="input light">Lightness</a><input class="input" type="range" min="0" max="100" value="90" oninput="updateLight(this.value)">
+        <script>
+        function updateHue(value) {
+          console.log('Changing hue var to', value)
+          document.documentElement.style.setProperty('--hue', value);
+        }
+        function updateSat(value) {
+          console.log('Changing saturation var to', value + '%');
+          document.documentElement.style.setProperty('--saturation', value + '%');
+        }
+
+        function updateLight(value) {
+          console.log('Changing lightness var to', value + '%');
+          document.documentElement.style.setProperty('--lightness', value + '%');
+        }
+        </script>
     </body>
 </html>
