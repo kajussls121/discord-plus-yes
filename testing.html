@@ -7,8 +7,8 @@
             :root {
                 font-family: "Roboto";
                 --hue: 90;
-                --saturation: 100%;
-                --lightness: 100%;
+                --saturation: 50%;
+                --lightness: 50%;
             }
             body{text-align:center}
             h1{font-family:sans-serif;text-align: center;}
@@ -35,8 +35,8 @@
         <p id="redacted">||||||||||</p>
         <h1>Use inspect element to change hue, saturation and lightness</h1>
         <br/><a class="input hue">Hue</a><input class="input" type="range" min="0" value="90" max="360" oninput="updateHue(this.value)">
-        <br/><a class="input saturation">Saturation</a><input class="input" type="range" min="0" max="100" value="90" oninput="updateSat(this.value)">
-        <br/><a class="input light">Lightness</a><input class="input" type="range" min="0" max="100" value="90" oninput="updateLight(this.value)">
+        <br/><a class="input saturation">Saturation</a><input class="input" type="range" min="0" max="100" value="50" oninput="updateSat(this.value)">
+        <br/><a class="input light">Lightness</a><input class="input" type="range" min="0" max="100" value="50" oninput="updateLight(this.value)">
         <script>
         function updateHue(value) {
           console.log('Changing hue var to', value)
