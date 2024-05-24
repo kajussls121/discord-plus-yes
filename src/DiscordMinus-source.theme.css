@@ -80,9 +80,9 @@
 .theme-dark {
 	--dplus-backdrop: url(https://kajussls121.github.io/discord-plus-yes/assets/wallpaper.jpg);
 	
-	--dplus-accent-color-hue: 320;
-	--dplus-accent-color-saturation: 60%;
-	--dplus-accent-color-lightness: 31%;
+	--dplus-accent-color-hue: 88;
+	--dplus-accent-color-saturation: 29%;
+	--dplus-accent-color-lightness: 47%;
 	
 	--dplus-foreground-color-hue-base: 210; /* based on vanilla --text-normal hue */
 	--dplus-foreground-color-hue-links: 197;
