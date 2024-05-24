@@ -32,6 +32,12 @@
                 margin-right: 35px;
                 margin-left: 10px
             }
+            .output::after {
+                content: ""
+            }
+            .output,.output-value {
+                color: white
+            }
         </style>
     </head>
     <body>
@@ -41,19 +47,37 @@
         <br/><a class="input hue">Hue</a><input class="input" type="range" min="0" value="90" max="360" oninput="updateHue(this.value)">
         <br/><a class="input saturation">Saturation</a><input class="input" type="range" min="0" max="100" value="50" oninput="updateSat(this.value)">
         <br/><a class="input light">Lightness</a><input class="input" type="range" min="0" max="100" value="50" oninput="updateLight(this.value)">
+        <br/><br/><div class="output">
+            <span class="output-value">Hue: 90 Saturation: 50% Lightness: 50%</span>
+            <p>or</p>
+            <span class="output-value2">90,50%,50%</span>
+          </div>
         <script>
         function updateHue(value) {
-          console.log('Changing hue var to', value)
           document.documentElement.style.setProperty('--hue', value);
+          runatstartandvar()
         }
         function updateSat(value) {
-          console.log('Changing saturation var to', value + '%');
           document.documentElement.style.setProperty('--saturation', value + '%');
+          runatstartandvar()
         }
 
         function updateLight(value) {
-          console.log('Changing lightness var to', value + '%');
           document.documentElement.style.setProperty('--lightness', value + '%');
+          runatstartandvar()
+        }
+        function updateOutput(hue, saturation, lightness) {
+          const outputValueElement = document.querySelector('.output .output-value');
+          const outputValue2Element = document.querySelector('.output .output-value2');
+          outputValueElement.textContent = `Hue: ${hue} Saturation: ${saturation} Lightness: ${lightness}`;
+          outputValue2Element.textContent = `${hue}, ${saturation}, ${lightness}`;
+        }
+        function runatstartandvar() {
+            var hue = getComputedStyle(document.documentElement).getPropertyValue('--hue').trim();
+            var saturation = getComputedStyle(document.documentElement).getPropertyValue('--saturation').trim();
+            var lightness = getComputedStyle(document.documentElement).getPropertyValue('--lightness').trim();
+            console.log(hue, ',', saturation, ',' ,lightness)
+            updateOutput(hue, saturation, lightness)
         }
         </script>
     </body>
