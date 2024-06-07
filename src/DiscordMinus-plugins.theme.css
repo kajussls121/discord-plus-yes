@@ -10,6 +10,12 @@
 * Sorted alphabetically, first by author, then by plugin name.
 */
 
+#lazyLoader {
+	width: var(--dplus-members-width) !important;
+	top: -10px !important;
+	background: transparent !important;
+}
+
 /* Plugins */
 	/* by Arashiryuu */
 		/* MemberCount */
