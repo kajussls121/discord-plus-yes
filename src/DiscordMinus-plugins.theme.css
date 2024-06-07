@@ -11,8 +11,6 @@
 */
 
 #lazyLoader {
-	width: var(--dplus-members-width) !important;
-	top: -10px !important;
 	background: transparent !important;
 }
 
