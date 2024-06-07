@@ -11,7 +11,7 @@
 */
 
 #lazyLoader {
-	background: transparent !important;
+	background: var(--dplus-bgc-ui-base);
 }
 
 /* Plugins */
