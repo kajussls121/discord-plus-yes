@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>Testing page for svgs in this dir</title>
+    <style>
+        :root {
+            font-family: "Roboto", sans-serif;
+        }
+        head,body {
+          background-color: rgb(44, 43, 43);
+        }
+        body {
+          color: white;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+        }
+        h1 {font-family: "Bebas Neue", inherit;font-size:2cm;margin: 0;}
+		p {font-family: "Roboto", inherit;font-size:0.5cm}
+		a {font-family: "Noto Color Emoji", inherit;color: rgb(64, 49, 151)}
+        a:link,a:visited,a:active {color: white;background-color: transparent;text-decoration: none;}
+        a:hover {color: rgb(196, 196, 196);background-color: transparent;}
+        hr {
+            background: inherit;
+            border: none;
+            border-top: 3px double #d1d1d1;
+            color: #d1d1d1;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+        }
+
+        hr::after {
+            content: '§';
+            padding: 0 4px;
+            position: relative;
+            top: -13px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <h1>Testing page for SVGs in this directory</h1>
+    <p>camera.svg</p><img src="camera.svg" alt="camera.svg" /><hr />
+    <p>home_dark.svg</p><img src="home_dark.svg" alt="home_dark.svg" /><hr />
+    <p>home_dark_classic.svg</p><img src="home_dark_classic.svg" alt="home_dark_classic.svg" /><hr />
+    <p>home_dark_default.svg</p><img src="home_dark_default.svg" alt="home_dark_default.svg" /><hr />
+    <p>home_light.svg</p><img src="home_light.svg" alt="home_light.svg" /><hr />
+    <p>home_light_classic.svg</p><img src="home_light_classic.svg" alt="home_light_classic.svg" /><hr />
+    <p>home_light_default.svg</p><img src="home_light_default.svg" alt="home_light_default.svg" /><hr />
+</body>
+</html>
