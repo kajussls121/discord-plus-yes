@@ -5,6 +5,10 @@
  * @version 1.00
 */
 :root {--dplus-icon-home-light:var(--dplus-icon-home);--dplus-icon-home-dark:var(--dplus-icon-home)}
+/* Hide shop button */
+.tideButton_a25714 {
+	display: none;
+}
 /*
 	Table of Contents
 1 Imports
