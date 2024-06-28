@@ -1203,6 +1203,13 @@ margin-right: 0;
 .chatContent_f087cb, .chatContent_f087cb, .form_d8a4a1:before, .form_d8a4a1:before, .replying__38514:before {
 	background: transparent !important;
 }
+.container_b385c8 { /* Forum specific; reactions, following, copy link */
+	margin-top: 0px;
+	border-top: none;
+}
+.empty_e2e187, .emptyForum_e2e187 { /* Spacing at the bottom */
+	display: none;
+}
 .wrapper__6b7d8, #app-mount .children_cde9af:after {display: none;}
 .group-spacing-0 { --group-spacing: 0px; }
 .group-spacing-4 { --group-spacing: 4px; }
