@@ -10,6 +10,11 @@
 
 /*  */
 :root {
+
+/*  */
+  --icon-color-hue: 88;
+  --icon-color-saturation-factor: 29;
+  --icon-color-lightness: 47;
 /* Crash message changing */
   --crash-line-1: "Well, Discord may have crashed";
   --crash-line-2: "but it may be fine.";

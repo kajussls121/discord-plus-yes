@@ -9,6 +9,18 @@
 .tideButton_a25714 {
 	display: none;
 }
+.icon_d8bfb3 {
+	color: var(--dplus-accent-ui)
+}
+.icon_d8bfb3 {
+	color: var(--icon-color)
+}
+:root {
+--icon-color: hsl(var(--icon-color-hue),
+	var(--icon-color-saturation-factor),
+	calc(var(--icon-color-lightness) * 1)
+	)
+}
 /*
 	Table of Contents
 1 Imports
