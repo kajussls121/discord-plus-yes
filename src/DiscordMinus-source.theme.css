@@ -9,17 +9,17 @@
 .tideButton_a25714 {
 	display: none;
 }
-.icon_d8bfb3 {
-	color: var(--dplus-accent-ui)
-}
-.icon_d8bfb3 {
+.icon_a08117,.icon_d8bfb3 {
 	color: var(--icon-color)
 }
 :root {
---icon-color: hsl(var(--icon-color-hue),
-	var(--icon-color-saturation-factor),
-	calc(var(--icon-color-lightness) * 1)
-	)
+	--icon-color-hue: 88;
+	--icon-color-saturation-factor: 29;
+	--icon-color-lightness: 47;
+	--icon-color: hsl(var(--icon-color-hue),
+		var(--icon-color-saturation-factor),
+		calc(var(--icon-color-lightness) * 1)
+		)
 }
 /*
 	Table of Contents
