@@ -6,7 +6,7 @@
 */
 :root {--dplus-icon-home-light:var(--dplus-icon-home);--dplus-icon-home-dark:var(--dplus-icon-home)}
 /* Hide shop button */
-.tideButton_a25714 {
+.tideButton_a25714, [data-list-item-id="private-channels-uid_66___shop"][href="/shop"] {
 	display: none;
 }
 .icon_a08117,.icon_d8bfb3 {
